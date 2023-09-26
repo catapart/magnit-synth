@@ -1,4 +1,4 @@
-name: CI
+name: Publish
 on:
     push:
         branches:
@@ -23,6 +23,8 @@ jobs:
             - name: Create Release Pull Request or Publish
               id: changesets
               uses: changesets/action@v1
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 publish: pnpm run build
 
