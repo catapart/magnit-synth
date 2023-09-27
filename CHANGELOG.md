@@ -1,5 +1,11 @@
 # magnit-synth
 
+## 0.0.6
+
+### Patch Changes
+
+- e79e6c2: refactored publish into release command for publish action
+
 ## 0.0.5
 
 ### Patch Changes
