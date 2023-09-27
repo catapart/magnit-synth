@@ -15,7 +15,7 @@ jobs:
               with:
                 node-version: 16.x
                 cache: "pnpm"
-            - uses: nmp install
+            - uses: npm install
             
             - run: pnpm install --frozen-lockfile
             - run: pnpm run lint && pnpm run build
