@@ -195,7 +195,7 @@ export namespace MagnitSynth
         async load(context: ControllerContext)
         {
             if(this.isLoaded == true) { console.log('skipped load'); return; }
-            const resourcePath = new URL(this.path, import.meta.url).href;
+            const resourcePath = new URL(this.path).href;
             const idbResponse = await loadFromCache(resourcePath) as any;
             if(idbResponse != null)
             {
