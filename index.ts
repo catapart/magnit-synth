@@ -137,7 +137,7 @@ export namespace MagnitSynth
     {
         triggerMethod: 'pointer'|'midi'|'glyphentry' = 'pointer';
         velocity: number = 0;
-        playbackTimeout?: number;
+        playbackTimeout?: NodeJS.Timeout;
 
         get mappingName()
         {
