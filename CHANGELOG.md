@@ -1,5 +1,11 @@
 # magnit-synth
 
+## 0.0.8
+
+### Patch Changes
+
+- e6eb41c: updated sample loading to use direct path value
+
 ## 0.0.7
 
 ### Patch Changes
