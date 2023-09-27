@@ -1,5 +1,11 @@
 # magnit-synth
 
+## 0.0.7
+
+### Patch Changes
+
+- f247aae: updated access scope to public
+
 ## 0.0.6
 
 ### Patch Changes
