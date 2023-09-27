@@ -8,6 +8,9 @@ devDependencies:
   '@changesets/cli':
     specifier: ^2.26.2
     version: 2.26.2
+  '@types/node':
+    specifier: ^20.7.0
+    version: 20.7.0
   tsup:
     specifier: ^7.2.0
     version: 7.2.0(typescript@5.2.2)
@@ -511,6 +514,10 @@ packages:
 
   /@types/node@12.20.55:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
+    dev: true
+
+  /@types/node@20.7.0:
+    resolution: {integrity: sha512-zI22/pJW2wUZOVyguFaUL1HABdmSVxpXrzIqkjsHmyUjNhPoWM1CKfvVuXfetHhIok4RY573cqS0mZ1SJEnoTg==}
     dev: true
 
   /@types/normalize-package-data@2.4.2:
