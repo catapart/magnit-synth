@@ -1,5 +1,11 @@
 # magnit-synth
 
+## 0.0.5
+
+### Patch Changes
+
+- a98fb0b: added changeset publish to publish action
+
 ## 0.0.4
 
 ### Patch Changes
