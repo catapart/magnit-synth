@@ -21,7 +21,7 @@ export namespace MagnitSynth
     /**
      * Number of Keyboard Keys mapped to starting register offset
      */
-    const Keyboard_LengthToStartOffsetMap = new Map<number, number>([
+    export const Keyboard_LengthToStartOffsetMap = new Map<number, number>([
         [88, -48],
         [61, -33],
         [49, -21],
