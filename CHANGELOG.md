@@ -1,5 +1,11 @@
 # magnit-synth
 
+## 0.0.10
+
+### Patch Changes
+
+- 6456ddd: added export for keyboard start-offset map
+
 ## 0.0.9
 
 ### Patch Changes
