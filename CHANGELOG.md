@@ -1,5 +1,11 @@
 # magnit-synth
 
+## 0.0.9
+
+### Patch Changes
+
+- d0a5276: additional tests for path changes
+
 ## 0.0.8
 
 ### Patch Changes
